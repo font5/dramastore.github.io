@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FDHF4GPL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-64FDHF4GPL');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dramastore Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            Telegram: <button id="drama" onclick="window.open('https://t.me/dramastore')">@Dramastore</button>
+        </header> <br> <br> <br>
+
+        <div class="sub-container">
+            <div class="maelezo1">
+                <h4>This is the official download page of Korean Dramas from the following Telegram Channels</h4>
+            <ul>
+                <li><button id="drama" onclick="window.open('https://t.me/dramastore')">Korean Drama Store</button></li>
+                <li><button id="drama" onclick="window.open('https://t.me/freekoreandrama')">Free Korean Drama</button></li>
+            </ul>
+
+            <p>Inorder to go to the Download Page, Please Enter the CODE you got from  Telegram below (<i>Usually at the first button of drama.</i>) or see the list of our download codes at the Download Codes List Section. </p>
+
+            <div id="work">
+                <input type="number" id="input" placeholder="Enter code here..."> <br>
+                <span id="ujumbe"></span>
+                <button id="codes" onclick="checkCode()">CHECK CODE</button>
+            </div>
+            </div> 
+             <br><br>
+            <hr>
+            
+            <div class="codes-list">
+                List Of Available Download Codes
+                <ol>
+                    <li>Tale Of The Nine Tailed. <br> Codes: <b>1666</b></li>
+                    <li>The Spies Who Loved Me. <br> Codes: <b>1667</b></li>
+                    <li>Private Lives. <br> Codes: <b>1668</b></li>
+                    <li>Do Do Sol Sol La La Sol. <br> Codes: <b>1669</b></li>
+                    <li id="typing">Typing</li>
+                </ol>
+            </div>
+        </div>
+ 
+        <!--#######################Tale#############################-->
+       
+        <div style="display: none;" id="tale">
+            <div id="header-top">
+                <span><b>Tale Of The Nine Tailed</b></span> <button onclick="closeButton()" id="close">X</button>
+            </div>
+              <hr>
+             <ul>
+                 <li>Drama: <b>Tale Of The Nine Tailed</b></li>
+                 <li>Episodes: <b>16</b></li>
+                 <li>Run Time: <b>Wed. & Thu. 22:50</b></li>
+                 <li>Release Date: <b>October 7, 2020</b></li>
+                 <li>Genres: <b>Action, Thriller, Romance, Drama, Fantasy, Melodrama.</b></li> <br>
+                 <li>Country: <b>South Korea</b></li>
+             </ul> <hr> <br>
+            <div id="footer-bottom">
+                <a id="alink" href="https://t.me/joinchat/AAAAAFfolZ0GZEAeYRxoXg" >DOWNLOAD NOW</a> 
+            </div>    
+        </div>
+
+        <!--######################Tale##############################-->
+
+         <!--#######################Spies#############################-->
+       
+         <div style="display: none;" id="spies">
+            <div id="header-top">
+                <span><b>The Spies Who Loved Me</b></span> <button onclick="closeButton()" id="close">X</button>
+            </div>
+              <hr>
+             <ul>
+                 <li>Drama: <b>The Spies Who Loved Me</b></li>
+                 <li>Episodes: <b>16</b></li>
+                 <li>Run Time: <b>Wed. & Thu. 22:50</b></li>
+                 <li>Release Date: <b>October 21, 2020</b></li>
+                 <li>Genres: <b>Action, Thriller, Romance, Drama, Fantasy, Melodrama.</b></li> <br>
+                 <li>Country: <b>South Korea</b></li>
+             </ul> <hr> <br>
+            <div id="footer-bottom">
+                <a id="alink" href="https://t.me/joinchat/AAAAAEUIIuwi1lQ0XWib2g" >DOWNLOAD NOW</a> 
+            </div>    
+        </div>
+
+        <!--######################Spies##############################-->
+
+         <!--#######################Private#############################-->
+       
+         <div style="display: none;" id="private">
+            <div id="header-top">
+                <span><b>Private Lives</b></span> <button onclick="closeButton()" id="close">X</button>
+            </div>
+              <hr>
+             <ul>
+                 <li>Drama: <b>Private Lives</b></li>
+                 <li>Episodes: <b>16</b></li>
+                 <li>Run Time: <b>Wed. & Thu. 22:50</b></li>
+                 <li>Release Date: <b>October 7, 2020</b></li> <br>
+                 <li>Country: <b>South Korea</b></li>
+             </ul> <hr> <br>
+            <div id="footer-bottom">
+                <a id="alink" href="https://t.me/joinchat/AAAAAErdWqxNsOH6FeGgjQ" >DOWNLOAD NOW</a> 
+            </div>    
+        </div>
+
+        <!--######################Private##############################-->
+
+         <!--#######################dodo#############################-->
+       
+         <div style="display: none;" id="dodo">
+            <div id="header-top">
+                <span><b>Do Do Sol Sol La La Sol</b></span> <button onclick="closeButton()" id="close">X</button>
+            </div>
+              <hr>
+             <ul>
+                 <li>Drama: <b>Do Do Sol Sol La La Sol</b></li>
+                 <li>Episodes: <b>16</b></li>
+                 <li>Run Time: <b>Wed. & Thu. 22:50</b></li>
+                 <li>Release Date: <b>October 7, 2020</b></li>
+                 <li>Genres: <b>Romantic-Comedy</b></li> <br>
+                 <li>Country: <b>South Korea</b></li>
+             </ul> <hr> <br>
+            <div id="footer-bottom">
+                <a id="alink" href="https://t.me/joinchat/AAAAAEaQojMuHbslB_Ra6w" >DOWNLOAD NOW</a> 
+            </div>    
+        </div>
+
+        <!--######################dodo##############################-->
+
+        <br><br><br><br><br><footer>
+            Telegram: <button id="drama" onclick="window.open('https://t.me/dramastore')">@dramastore</button> &nbsp; &nbsp;
+            <span id="yaLeo"></span>
+        </footer>
+    </div>
+ 
+
+    
+    <!--Shorten Links-->
+    
+    <script type="text/javascript">
+        var app_url = 'https://shortzzy.com/';
+        var app_api_token = 'a4cfc4362c3d4013b27791f94e8d762f3042be6a';
+        var app_advert = 2;
+        var app_exclude_domains = ["dramastore.github.io","t.me/dramastore","t.me/freekoreandrama"];
+    </script>
+    <script src='//shortzzy.com/js/full-page-script.js'></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+header a {
+    color: yellow;
+}
+
+.sub-container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#work {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container input {
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    height: 24px;
+    padding: 20px 10px;
+    border-radius: 12px;
+}
+
+.main-container input::placeholder {
+    font-weight: normal;
+    font-size: medium;
+}
+
+.sub-container button {
+    background-color: yellow;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: large;
+    border: black solid 1px;
+    color: black;
+    border-radius: 6px;
+
+}
+
+.sub-container button:hover, .sub-container button:active {
+    background-color: black;
+    border: yellow solid 1px;
+    color: yellow;
+}
+
+.codes-list {
+    background-color: bisque;
+    font-size: medium;
+    padding: 10px 10px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+#typing:after {
+    content: ' . ';
+    animation: dots 2s steps(5, end) infinite;
+    font-size: medium;
+}
+  
+  @keyframes dots {
+    0%, 20% {
+      color: rgba(0,0,0,0);
+      text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);}
+    40% {
+      color: black;
+      text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);}
+    60% {
+      text-shadow:
+        .25em 0 0 black,
+        .5em 0 0 rgba(0,0,0,0);}
+    80%, 100% {
+      text-shadow:
+        .25em 0 0 black,
+        .5em 0 0 black;}}
+  
+
+
+
+#header-top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#header-top button {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: magenta;
+}
+
+#footer-bottom {
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#footer-bottom a {
+    background-color: magenta;
+    color: black;
+    padding: 5px 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 4px;
+}
+
+footer a {
+    color: yellow;
+}
+
+#ujumbe {
+    color: red;
+    font-size: smaller;
+}
+
+#drama {
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+header button, footer button {
+    color: yellow;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.maelezo1 #drama {
+    font-size: medium;
+    color: brown;
+}
