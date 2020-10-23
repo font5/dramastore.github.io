@@ -15,6 +15,7 @@ header {
     color: white;
     text-align: center;
     padding: 10px 0px;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 header a {
@@ -44,7 +45,7 @@ header a {
 
 .main-container input::placeholder {
     font-weight: normal;
-    font-size: medium;
+    font-size: small;
 }
 
 .sub-container button {
@@ -55,7 +56,7 @@ header a {
     border: black solid 1px;
     color: black;
     border-radius: 6px;
-
+    font-family: 'Carter One', cursive;
 }
 
 .sub-container button:hover, .sub-container button:active {
@@ -147,6 +148,7 @@ footer {
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 4px;
+    font-family: 'Carter One', cursive;
 }
 
 footer a {
@@ -174,4 +176,25 @@ header button, footer button {
 .maelezo1 #drama {
     font-size: medium;
     color: brown;
+}
+
+#howTo {
+    background-color: white;
+    padding: 4px 7px;
+    border-radius: 8px;
+    font-size: x-large;
+    font-family: 'Tangerine', cursive;
+}
+
+#howTo span {
+    background-color: red;
+    border-radius: 2px;
+    padding: 0px 2px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.maelezo1 {
+    font-family: 'Grenze Gotisch', cursive;
 }
