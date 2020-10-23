@@ -131,10 +131,11 @@ header a {
 #footer-bottom a {
     background-color: magenta;
     color: black;
-    padding: 5px 4px;
-    border-radius: 4px;
+    padding: 8px 7px;
+    border-radius: 5px;
     text-decoration: none;
-    
+    font-family: sans-serif;
+    font-size: large;
 }
 
 footer {
