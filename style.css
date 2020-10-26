@@ -153,6 +153,7 @@ header button, footer button {
     border-radius: 8px;
     font-size: x-large;
     font-family: 'Tangerine', cursive;
+    Display: none;
 }
 
 #howTo span {
