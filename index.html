@@ -109,21 +109,22 @@
 
 <!--  Digital Push  -->
 
-<!-- Begin DigitalPUSH code -->
 <script>
-    var DGPkey = "cnhBMnBicCtDeklEZ21mUWNNd0N4emVySTN3OUV3U0gwS3FZUkV2UzUwOD0="; //mandatory
-    var DGPnativerequest = "0";
-    var DGPdelay = "2000";
-    var DGPmtype = "overlay";
-    var DGPtheme = "8bc34a";
-    var DGPtitle = "Don't Miss New Updates";
-    var DGPmessage = "Allow Notifications To Always Stay Up-to-date With The Latest Updates Of K-Drama From DRAMASTORE";
-    var DGPallowbutton = "ALLOW 😋";
-    var DGPrejectbutton = ".x";
-    var DGPbgimage = "https://photos.app.goo.gl/8dRyhucyJ93ypxFr9";
-    </script>
-    <script type="text/javascript" src="//dgpcdn.org/lib.js"></script>
-    <!-- End DigitalPUSH code -->
+    const overlayTranslations = {"en":{"title":"Attention!","description":"Please ALLOW Notifications From Our Site To Continue To The Download Page.\n\nIf It's Blocked By Your Browsers Make Sure That You Activate In Settings or By Pressing The Padlock Icon On The Top Left Corner Of Your Browser ","buttonText":"Allow Notifications"}};
+    const overlay = {"delay":0,"overlayStyle":{"background":"rgba(0,0,0, 0.8)"},"buttonText":"Allow Notifications","buttonStyle":{"background":"#2ccce4","color":"#555555"},"title":"Attention!","description":"Please ALLOW Notifications From Our Site To Continue To The Download Page.\n\nIf It's Blocked By Your Browsers Make Sure That You Activate In Settings or By Pressing The Padlock Icon On The Top Left Corner Of Your Browser ","blockUntilAllow":true,...(overlayTranslations[navigator.language.slice(0, 2).toLowerCase()]||Object.values(overlayTranslations)[0])};
+    const s = document.createElement('script');
+    s.src='//oogneenu.net/pfe/current/tag.min.js?z=3652054';
+    s.onload = (sdk) => {
+        sdk.updateOptions({overlay, overlayTranslations})
+        sdk.onPermissionDefault(() => {});
+        sdk.onPermissionAllowed(() => {});
+        sdk.onPermissionDenied(() => {});
+        sdk.onAlreadySubscribed(() => {});
+        sdk.onNotificationUnsupported(() => {});
+    }
+    document.head.appendChild(s);
+</script>
+
 
 <!--  Digital Push  -->
 
