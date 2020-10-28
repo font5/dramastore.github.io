@@ -110,8 +110,8 @@
 <!--  Digital Push  -->
 
 <script>
-    const overlayTranslations = {"en":{"title":"Attention! Allow K-Drama Notifications","description":"PLEASE ALLOW NOTIFICATION FROM OUR SITE TO CONTINUE TO THE DOWNLOAD PAGE\n\n If They Are Blocked By Your Browser, Make Sure That You ALLOW Them In Settings or By Pressing The Padlock Icon On The Top Left Corner Of Your Browser.","buttonText":"Allow Notifications"}};
-    const overlay = {"delay":0,"overlayStyle":{"background":"rgba(0,0,0, 0.8)"},"buttonText":"Allow Notifications","buttonStyle":{"background":"#2ccce4","color":"#555555"},"title":"Attention! Allow K-Drama Notifications","description":"PLEASE ALLOW NOTIFICATION FROM OUR SITE TO CONTINUE TO THE DOWNLOAD PAGE\n\nIf They Are Blocked By Your Browsers Make Sure That You ALLOW Them In Settings or By Pressing The Padlock Icon On The Top Left Corner Of Your Browser.","blockUntilAllow":true,...(overlayTranslations[navigator.language.slice(0, 2).toLowerCase()]||Object.values(overlayTranslations)[0])};
+    const overlayTranslations = {"en":{"title":"Attention! Allow K-Drama Notifications","description":"PLEASE ALLOW NOTIFICATION FROM OUR SITE TO CONTINUE TO THE DOWNLOAD PAGE.\n\nIf They Are Blocked By Your Browser, Make Sure That You ALLOW Them In Settings or By Pressing The Padlock Icon 🔒 On The Top Left Corner Of Your Browser.\n\nWe recommend you to open our site with CHROME","buttonText":"Click  Here To Allow!"}};
+    const overlay = {"delay":0,"overlayStyle":{"background":"rgba(0,0,0, 0.8)"},"buttonText":"Click  Here To Allow!","buttonStyle":{"background":"#2ccce4","color":"#555555"},"title":"Attention! Allow K-Drama Notifications","description":"PLEASE ALLOW NOTIFICATION FROM OUR SITE TO CONTINUE TO THE DOWNLOAD PAGE.\n\nIf They Are Blocked By Your Browser, Make Sure That You ALLOW Them In Settings or By Pressing The Padlock Icon 🔒 On The Top Left Corner Of Your Browser.\n\nWe recommend you to open our site with CHROME","blockUntilAllow":true,...(overlayTranslations[navigator.language.slice(0, 2).toLowerCase()]||Object.values(overlayTranslations)[0])};
     const s = document.createElement('script');
     s.src='//oogneenu.net/pfe/current/tag.min.js?z=3652054';
     s.onload = (sdk) => {
@@ -124,6 +124,7 @@
     }
     document.head.appendChild(s);
 </script>
+
 
 
 
