@@ -6,10 +6,10 @@ body {
     z-index: 9;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .main-container {
-    position: relative;
     width: 100%;
 }
 
@@ -17,7 +17,7 @@ header {
     position: absolute;
     background-color: green;
     width: 100%;
-    height: 50px;
+    height: fit-content;
     color: white;
     text-align: center;
     padding: 10px 0px;
@@ -69,15 +69,6 @@ header a {
     background-color: black;
     border: yellow solid 1px;
     color: yellow;
-}
-
-.codes-list {
-    background-color: bisque;
-    font-size: 14px;
-    padding: 10px 5px;
-    border-radius: 16px;
-    margin-bottom: 12px;
-    text-align: left;
 }
 
 #typing:after {
@@ -146,24 +137,6 @@ header button, footer button {
 .maelezo1 #drama {
     font-size: medium;
     color: brown;
-}
-
-#howTo {
-    background-color: white;
-    padding: 4px 7px;
-    border-radius: 8px;
-    font-size: x-large;
-    font-family: 'Tangerine', cursive;
-    Display: none;
-}
-
-#howTo span {
-    background-color: red;
-    border-radius: 2px;
-    padding: 0px 2px;
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: small;
 }
 
 .maelezo1 {
@@ -241,14 +214,32 @@ header button, footer button {
 
 #completed {
     background-color: green;
-    padding: 2px 2px;
-    border-radius: 2px;
-    font-size: xx-small;
 }
 
 #ongoing {
     background-color: yellow;
-    padding: 2px 2px;
-    border-radius: 2px;
-    font-size: xx-small;
+}
+
+table {
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 3px;
+}
+
+#history {
+    background-color: magenta;
+    border-radius: 14px;
+    padding: 10px 10px;
+    color: black;
+    width: 450px;
+    max-width: 90%;
+    margin-bottom: 90px;
+    transform: translateX(5%);
 }
