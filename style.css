@@ -254,3 +254,12 @@ th, td {
     max-width: 96%;
     background-color: yellow;
 }
+
+#tangazo2 {
+    border: solid 1px black;
+    padding: 2px 3px;
+    border-radius: 3px;
+    width: 500px;
+    max-width: 95%;
+    background-color: yellow;
+}
