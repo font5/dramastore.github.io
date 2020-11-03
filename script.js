@@ -429,6 +429,15 @@ else if (input == 1812) {
     episodes.innerHTML = '<b>Episodes:</b> 12'
     downloadButton.setAttribute('href', "https://tinyurl.com/Mystic-Pop-Up-Bar-TG")
 }
+
+else if (input == 1813) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Birthcare Center (2020)"
+    episodes.innerHTML = '<b>Episodes:</b> 08'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Birthcare-Center-TG")
+}
     else {
         let ujumbe = document.getElementById('ujumbe')
         ujumbe.style.display = 'block';
