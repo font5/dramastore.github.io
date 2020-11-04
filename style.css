@@ -245,6 +245,14 @@ th, td {
     transform: translateX(5%);
 }
 
+#constant-msg {
+    line-height: 24px;
+}
+#profile {
+    font-size: larger;
+    font-weight: bolder;
+}
+
 
 @media screen and (min-width: 400px) {
     body {
