@@ -438,6 +438,225 @@ else if (input == 1813) {
     episodes.innerHTML = '<b>Episodes:</b> 08'
     downloadButton.setAttribute('href', "https://tinyurl.com/Birthcare-Center-TG")
 }
+
+else if (input == 1814) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Kkondae Intern"
+    episodes.innerHTML = '<b>Episodes:</b> 24'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Old-School-Intern-TG")
+}
+
+else if (input == 1815) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Oh My Baby"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Oh-My-Baby-TG")
+}
+
+else if (input == 1816) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Soul Mechanic"
+    episodes.innerHTML = '<b>Episodes:</b> 32'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Soul-Mechanic-TG")
+}
+
+else if (input == 1817) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Moon Lovers: Scarlet Heart"
+    episodes.innerHTML = '<b>Episodes:</b> 20'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Moon-Lovers-TG")
+    document.getElementById('year').innerHTML = '<b>Year:</b> 2016'
+}
+
+else if (input == 1818) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Descendants Of The Sun"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Descendants1-TG")
+    document.getElementById('year').innerHTML = '<b>Year:</b> 2016'
+}
+
+else if (input == 1819) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: WAIKIKI 1&2"
+    episodes.innerHTML = '<b>Episodes:</b> 20&16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Waikiki-1-2")
+}
+
+else if (input == 1820) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Extracurricular"
+    episodes.innerHTML = '<b>Episodes:</b> 10'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Extracurricular-TG")
+}
+
+else if (input == 1821) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: The World Of My 17"
+    episodes.innerHTML = '<b>Episodes:</b> 12'
+    downloadButton.setAttribute('href', "https://tinyurl.com/The-World-17")
+}
+
+else if (input == 1822) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Good Casting"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Good-Casting-TG")
+}
+
+else if (input == 1823) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: When My Love Blooms"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/When-Blooms-TG")
+}
+
+else if (input == 1824) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: 365: Repeat The Year"
+    episodes.innerHTML = '<b>Episodes:</b> 24'
+    downloadButton.setAttribute('href', "https://tinyurl.com/365-Repeat-TG")
+}
+
+else if (input == 1825) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Born Again"
+    episodes.innerHTML = '<b>Episodes:</b> 32'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Born-Again-TG")
+}
+
+else if (input == 1826) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Woman Of 9.9 Billion"
+    episodes.innerHTML = '<b>Episodes:</b> 32'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Woman-9-9-Billion")
+}
+
+else if (input == 1827) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: A Piece Of Your Mind"
+    episodes.innerHTML = '<b>Episodes:</b> 12'
+    downloadButton.setAttribute('href', "https://tinyurl.com/A-Piece-Mind-TG")
+}
+
+else if (input == 1828) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: RUGAL (2020)"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Rugal-2020-TG")
+}
+
+else if (input == 1829) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: The World Of The Married"
+    episodes.innerHTML = '<b>Episodes:</b> 16+2 Special'
+    downloadButton.setAttribute('href', "https://tinyurl.com/The-World-Of-The-Married-TG")
+}
+
+else if (input == 1830) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: The King: Eternal Monarch"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Eternal-Monarch")
+}
+
+else if (input == 1831) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Hospital Playlist"
+    episodes.innerHTML = '<b>Episodes:</b> 12'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Hospital-Playlist-TG")
+}
+
+else if (input == 1832) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Find Me In Your Memory"
+    episodes.innerHTML = '<b>Episodes:</b> 32'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Find-Me-In-Your-Memory")
+}
+
+else if (input == 1833) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Meow: The Secret Boy"
+    episodes.innerHTML = '<b>Episodes:</b> 24'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Meow-KD")
+}
+
+else if (input == 1834) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: MEMORIST"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/memorist-KD")
+}
+
+else if (input == 1835) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: When The Weather Is Fine"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/When-Weather-TG")
+}
+
+else if (input == 1836) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Hi Bye, Mama"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Hi-Bye-mama")
+}
+
+else if (input == 1837) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Drama: Hyena"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Hyena-TG")
+}
+
     else {
         let ujumbe = document.getElementById('ujumbe')
         ujumbe.style.display = 'block';
