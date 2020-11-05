@@ -298,4 +298,5 @@ th, td {
     text-align: center;
     align-items: center;
     justify-content: center;
+    max-width: 90%;
 }
