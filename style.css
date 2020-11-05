@@ -293,3 +293,9 @@ th, td {
        background-color: whitesmoke;
    }
 }
+
+#yllix1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
