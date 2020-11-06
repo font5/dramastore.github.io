@@ -8,10 +8,7 @@ body {
     height: 100%;
     position: relative;
     background-color: aliceblue;
-}
-
-.main-container {
-    width: 100%;
+    margin: 0 auto;
 }
 
 header {
@@ -29,18 +26,13 @@ header a {
     color: yellow;
 }
 
-.sub-container {
-    width: 90%;
-    margin: 0px auto;
-}
-
 #work {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.main-container input {
+.maelezo1 input {
     margin-bottom: 12px;
     text-align: center;
     font-size: larger;
@@ -50,12 +42,12 @@ header a {
     border-radius: 12px;
 }
 
-.main-container input::placeholder {
+.maelezo1 input::placeholder {
     font-weight: normal;
     font-size: small;
 }
 
-.sub-container button {
+.maelezo1 button {
     background-color: yellow;
     padding: 10px 10px;
     font-weight: bold;
@@ -66,7 +58,7 @@ header a {
     font-family: 'Carter One', cursive;
 }
 
-.sub-container button:hover, .sub-container button:active {
+.maelezo1 button:hover, .maelezo1 button:active {
     background-color: black;
     border: yellow solid 1px;
     color: yellow;
@@ -142,6 +134,7 @@ header button, footer button {
 
 .maelezo1 {
     font-family: 'Itim', cursive;
+    padding: 5px 10px;
 }
 
 #display-download {
@@ -295,8 +288,10 @@ th, td {
 }
 
 #adsterra {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    max-width: 90%;
+    margin: 0 auto;
+}
+
+#a-ads1, #a-ads2 {
+    margin: 0 auto;
+    max-width: 95%;
 }
