@@ -220,7 +220,8 @@ table {
     border-radius: 12px;
     margin-bottom: 10px;
     width: 90%;
-    transform: translateX(1%);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th, td {
