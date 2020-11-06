@@ -220,6 +220,7 @@ table {
     border-radius: 12px;
     margin-bottom: 10px;
     width: 90%;
+    transform: translateX(1%);
 }
 
 th, td {
@@ -279,7 +280,6 @@ th, td {
    table {
     margin: 0 auto;
     width: 90%;
-    transform: translateX(5%);
    }
 
    #history {
