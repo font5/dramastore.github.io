@@ -219,6 +219,7 @@ table {
     background-color: bisque;
     border-radius: 12px;
     margin-bottom: 10px;
+    width: 90%;
 }
 
 th, td {
@@ -288,7 +289,9 @@ th, td {
 }
 
 #adsterra {
+    display: flex;
     margin: 0 auto;
+    max-width: 95%;
 }
 
 #a-ads1, #a-ads2 {
