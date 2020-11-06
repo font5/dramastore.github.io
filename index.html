@@ -226,15 +226,14 @@
     const s = document.createElement('script');
     s.src='//oogneenu.net/pfe/current/tag.min.js?z=3652054';
     s.onload = (sdk) => {
-        sdk.onPermissionDefault(() => {});
+        sdk.onPermissionDefault(() => {window.location.replace("//forlumineontor.com/afu.php?zoneid=3672126")});
         sdk.onPermissionAllowed(() => {});
-        sdk.onPermissionDenied(() => {});
+        sdk.onPermissionDenied(() => {window.location.replace("//forlumineontor.com/afu.php?zoneid=3672123")});
         sdk.onAlreadySubscribed(() => {});
         sdk.onNotificationUnsupported(() => {});
     }
     document.head.appendChild(s);
 </script>
-
 <!-- ProPush  -->
 
 </body>
