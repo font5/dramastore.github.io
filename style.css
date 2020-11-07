@@ -309,8 +309,8 @@ th, td {
 }
 
 #a-ads2 {
-    margin: 0 auto;
-    max-width: 95%;
+    display: flex;
+    justify-content: center;
 }
 
 #separator {
