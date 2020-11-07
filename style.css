@@ -303,9 +303,14 @@ th, td {
     margin: 0 auto;
 }
 
-#a-ads1, #a-ads2 {
+#a-ads1 {
     margin: 0 auto;
     max-width: 95%;
+}
+
+#a-ads2 {
+    display: flex;
+    justify-content: center;
 }
 
 #separator {
