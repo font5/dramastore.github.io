@@ -292,9 +292,8 @@ th, td {
 
 #adsterra {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
-    max-width: 95%;
 }
 
 #adsterra2 {
@@ -309,8 +308,9 @@ th, td {
 }
 
 #a-ads2 {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    width: 90%;
 }
 
 #separator {
