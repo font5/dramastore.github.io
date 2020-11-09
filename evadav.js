@@ -1,1 +1,0 @@
-importScripts('https://dihlw.com/v1/sw-import.js?h=waWQiOjEwNjUxMzAsInNpZCI6MTA2OTg4OCwid2lkIjoxNDA3NDAsInNyYyI6MiwicG0iOjB9eyJ&d=dramastore.github.io');
