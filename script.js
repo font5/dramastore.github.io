@@ -656,6 +656,15 @@ else if (input == 1837) {
     episodes.innerHTML = '<b>Episodes:</b> 16'
     downloadButton.setAttribute('href', "https://tinyurl.com/Hyena-TG")
 }
+    
+else if (input == 1838) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Please Don't Date Him"
+    episodes.innerHTML = '<b>Episodes:</b> 10'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Dont-Date-Him-TG")
+}
 
     else {
         let ujumbe = document.getElementById('ujumbe')
