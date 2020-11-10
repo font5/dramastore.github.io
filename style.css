@@ -97,7 +97,8 @@ footer {
     background-color: green;
     color: white;
     text-align: left;
-    padding: 5px 8px;
+    height: fit-content;
+    padding: 8px 8px;
     font-family: 'Carter One', cursive;
     margin-top: 10px;
 }
