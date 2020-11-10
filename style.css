@@ -100,6 +100,7 @@ footer {
     height: fit-content;
     padding: 8px 8px;
     font-family: 'Carter One', cursive;
+    margin-bottom: 0;
 }
 
 footer a {
@@ -308,10 +309,4 @@ th, td {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-}
-
-#separator {
-    background-color: black;
-    width: 2px;
-    height: 300px;
 }
