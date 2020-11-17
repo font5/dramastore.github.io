@@ -235,12 +235,12 @@ th, td {
     color: black;
     width: 500px;
     max-width: 90%;
-    margin-bottom: 90px;
     transform: translateX(5%);
 }
 
 #history2 {
     background-color: white;
+    margin-bottom: 90px;
 }
 
 #constant-msg {
@@ -265,7 +265,7 @@ th, td {
     width: 90%;
    }
 
-   #history {
+   #history, #history2 {
        margin: 10 auto;
        transform: translateX(5%);
        background-color: whitesmoke;
@@ -285,7 +285,7 @@ th, td {
     width: 90%;
    }
 
-   #history {
+   #history, #history2 {
        margin: 10 auto;
        transform: translateX(15%);
        background-color: whitesmoke;
