@@ -228,7 +228,7 @@ th, td {
     border-radius: 3px;
 }
 
-#history {
+#history, #history2 {
     background-color: whitesmoke;
     border-radius: 14px;
     padding: 10px 10px;
@@ -237,6 +237,10 @@ th, td {
     max-width: 90%;
     margin-bottom: 90px;
     transform: translateX(5%);
+}
+
+#history2 {
+    background-color: white;
 }
 
 #constant-msg {
