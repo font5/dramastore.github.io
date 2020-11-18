@@ -672,7 +672,7 @@ else if (input == 1839) {
 
     profile.innerText = "Live On"
     episodes.innerHTML = '<b>Episodes:</b> 08'
-    downloadButton.setAttribute('href', "https://tinyurl.com/Dont-Date-Him-TG")
+    downloadButton.setAttribute('href', "https://tinyurl.com/Live-On-TG")
 }
 
     else {
