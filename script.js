@@ -666,6 +666,15 @@ else if (input == 1838) {
     downloadButton.setAttribute('href', "https://tinyurl.com/Dont-Date-Him-TG")
 }
 
+else if (input == 1839) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "Live On"
+    episodes.innerHTML = '<b>Episodes:</b> 08'
+    downloadButton.setAttribute('href', "https://tinyurl.com/Dont-Date-Him-TG")
+}
+
     else {
         let ujumbe = document.getElementById('ujumbe')
         ujumbe.style.display = 'block';
