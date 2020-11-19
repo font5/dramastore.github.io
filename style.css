@@ -292,6 +292,10 @@ th, td {
    }
 }
 
+.maelezo1 h1, table h1 {
+    font-size: medium;
+}
+
 #adsterra {
     display: flex;
     justify-content: center;
