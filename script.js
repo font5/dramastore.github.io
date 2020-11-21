@@ -674,6 +674,15 @@ else if (input == 1839) {
     episodes.innerHTML = '<b>Episodes:</b> 08'
     downloadButton.setAttribute('href', "https://tinyurl.com/Live-On-TG")
 }
+    
+else if (input == 1840) {
+    displayMessage.style.display = 'block'
+    overlay.style.display = 'block'
+
+    profile.innerText = "The Goddess Of Revenge"
+    episodes.innerHTML = '<b>Episodes:</b> 16'
+    downloadButton.setAttribute('href', "https://tinyurl.com/the-goddess-of-revenge")
+}
 
     else {
         let ujumbe = document.getElementById('ujumbe')
