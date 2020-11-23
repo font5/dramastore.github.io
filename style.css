@@ -29,6 +29,14 @@ header a {
     padding: 5px 10px;
 }
 
+h1 {
+    font-size: medium;
+}
+
+#below-list {
+    padding: 0 16px;
+}
+
 .main-container-ongoing, .main-container-list2 {
     background-color: yellow;
     width: 100%;
