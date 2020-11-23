@@ -7,4 +7,4 @@ var dakika = tarehe.getMinutes()
 var sekunde = tarehe.getSeconds()
 
 
-document.getElementById('yaLeo').innerHTML = leo + "/"+ mwezi + "/" + mwaka
+document.getElementById('yaLeo').innerHTML = leo + "/" + mwezi + "/" + mwaka

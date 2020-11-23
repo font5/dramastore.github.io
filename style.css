@@ -37,6 +37,29 @@ h1 {
     padding: 0 16px;
 }
 
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-container input {
+    width: 70%;
+    height: 36px;
+    border: yellow 2px solid;
+    border-radius: 16px;
+    box-shadow: black 12px 12px 12px;
+    text-align: center;
+}
+
+.search-container button {
+    height: 36px;
+    border-radius: 8px;
+    box-shadow: black 12px 12px 12px;
+    border: yellow 2px solid;
+    background-color: lightgrey;
+}
+
 .main-container-ongoing, .main-container-list2 {
     background-color: yellow;
     width: 100%;
@@ -47,7 +70,9 @@ h1 {
 .drama-container {
     background-color: white;
     width: 320px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
     padding: 15px 15px;
     border-radius: 10px;
     text-align: center;
@@ -173,36 +198,34 @@ header button, footer button {
 }
 
 
-#adsterra {
+#adsterra, #adsterra2 {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-}
-
-#adsterra2 {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    background-color: yellow;
-    padding: 12px 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
 }
 
 #a-ads1 {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
     width: 320px;
 }
 
 #a-ads2 {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
 }
 
-hr {
+.hr-element {
     background-color: red;
     height: 5px;
     width: 320px;
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
+    margin-bottom: 12px;
 }
