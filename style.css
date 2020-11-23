@@ -152,6 +152,26 @@ header button, footer button {
     font-family: monospace;
 }
 
+.ongoingD {
+    background-color: yellow;
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.completed {
+    background-color: green;
+    padding: 1px;
+    border-radius: 4px;
+}
+
+#admin {
+    font-size: small;
+}
+
+#admin a {
+    text-decoration: none;
+}
+
 
 #adsterra {
     display: flex;
