@@ -13,6 +13,9 @@ function searching() {
     var hrElement = document.querySelectorAll('.hr-element')
     document.querySelector('.main-container-list2').style.display = 'block'
     document.getElementById('load-more-btn').style.display = 'none'
+    document.getElementById('adsterra').style.display = 'none'  // ficha adsterra1
+    document.getElementById('adsterra2').style.display = 'none'  //ficha adsterra2
+    
 
     dramas.forEach(drama => {
         if (drama.innerText.toLowerCase().includes(filter)) {
