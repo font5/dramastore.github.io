@@ -6,6 +6,10 @@ body {
     width: 100%;
     position: relative;
     background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
 }
 
