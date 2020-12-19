@@ -237,3 +237,11 @@ header button, footer button {
     margin-bottom: 12px;
 }
 
+#yllix {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
+}
+
