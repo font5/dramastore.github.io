@@ -237,7 +237,7 @@ header button, footer button {
     margin-bottom: 12px;
 }
 
-#yllix {
+#yllix, #yllix50 {
     display: flex;
     justify-content: center;
     margin-right: auto;
