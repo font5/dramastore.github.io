@@ -33,7 +33,7 @@ function searching() {
 function openAd() {
     setTimeout(()=>{
        window.open('http://zuphaims.com/afu.php?zoneid=3800334')
-    }, 60000)
+    }, 20000)
 }
 
 openAd();
